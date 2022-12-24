@@ -73,6 +73,7 @@ input:focus {
 
 .submit {
   height: 30vh;
+  margin-top: 10px;
 }
 
 button {
@@ -107,6 +108,10 @@ a {
 }
 
 h1 {
-    font-family: "Roboto";
-    margin: 20px;
+  font-family: "Roboto";
+  margin: 20px;
+}
+
+p {
+  color: green;
 }
