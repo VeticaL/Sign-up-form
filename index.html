@@ -9,59 +9,76 @@
   </head>
   <body>
     <div class="main">
-      <div class="image">
-        <img src="image.jpg" alt="img" />
+      <div class="left">
+        <h1>hi</h1>
       </div>
-      <div class="text">
-        This is not a real online service! You know you need something <br />
-        like this in your life to help you realilze your deepest dreams. <br />
-        Sign up <em>now</em> to get started. <br />
-        <br />
-        <em>You know you want to.</em>
-      </div>
-      <div class="form">
-        <p>Let's do this!</p>
-        <div class="firstname">
-          <label for="firstname">First name</label>
-          <input type="text" name="firstname" id="firstname" required />
+      <div class="right">
+        <div class="text">
+          <h2>
+            This is not a real online service! You know you need something
+            <br />
+            like this in your life to help you realilze your deepest dreams.
+            <br />
+            <br />
+            Sign up <em>now</em> to get started. <br />
+            <br />
+            <em>You know you want to.</em>
+          </h2>
         </div>
-        <div class="lastname">
-          <label for="lastname">Last name</label>
-          <input type="text" name="lastname" id="lastname" required />
+        <div class="form">
+          <h2>Let's do this!</h2>
+          <form action="" method="get">
+            <div class="form-left">
+              <div class="firstname">
+                <label for="firstname">First name</label>
+                <input type="text" name="firstname" id="firstname" required />
+              </div>
+              <div class="lastname">
+                <label for="lastname">Last name</label>
+                <input type="text" name="lastname" id="lastname" required />
+              </div>
+              <div class="email">
+                <label for="email">Email</label>
+                <input type="email" name="eamil" id="email" required />
+              </div>
+            </div>
+            <div class="form-right">
+              <div class="phonenumber">
+                <label for="phone-number">Phone Number</label>
+                <input
+                  type="text"
+                  name="phone-number"
+                  id="phone-number"
+                  minlength="9"
+                  maxlength="9"
+                  required
+                />
+              </div>
+              <div class="password">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  min="8"
+                  required
+                />
+              </div>
+              <div class="confirmPassword">
+                <label for="confirmPassword">Confirm Password</label>
+                <input
+                  type="password"
+                  name="confirmPassword"
+                  id="confirmPassword"
+                />
+              </div>
+            </div>
+          </form>
         </div>
-        <div class="email">
-          <label for="email">Email</label>
-          <input type="email" name="eamil" id="email" required />
+        <div class="submit">
+          <button type="submit">Create Account</button>
+          <h3>Already have an account?<a href="#"> Log in</a></h3>
         </div>
-        <div class="phonenumber">
-          <label for="phone-number">Phone Number</label>
-          <input
-            type="text"
-            name="phone-number"
-            id="phone-number"
-            minlength="9"
-            maxlength="9"
-            required
-          />
-        </div>
-        <div class="password">
-          <label for="password">Password</label>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            min="8"
-            required
-          />
-        </div>
-        <div class="confirmPassword">
-          <label for="confirmPassword">Confirm Password</label>
-          <input type="password" name="confirmPassword" id="confirmPassword" />
-        </div>
-      </div>
-      <div class="submit">
-        <button>Create Account</button>
-        <p>Already have an account?<a href="#"> Log in</a></p>
       </div>
     </div>
   </body>
