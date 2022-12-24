@@ -1,6 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+@font-face {
+  font-family: Norse-Bold;
+  src: url(./fonts/Norse-Bold.otf);
+}
+
 body {
   margin: 0;
   padding: 0;
+  color: #eeeeee;
+  font-family: "Roboto", sans-serif;
 }
 
 .main {
@@ -11,7 +20,7 @@ body {
 }
 
 .left {
-  background-image: url(./image.jpg);
+  background-image: url(image.jpg);
   width: 40vw;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,13 +29,19 @@ body {
 .right {
   display: flex;
   flex-direction: column;
+  width: 60vw;
+  background-color: #222831;
 }
 
 .text {
   height: 40vh;
-  margin-left: 10%;
+  margin-left: 5%;
   display: flex;
   align-items: center;
+}
+
+label {
+  font-size: 12px;
 }
 
 .form {
@@ -34,12 +49,31 @@ body {
 }
 
 .form > h2 {
-    margin-left: 10%;
+  margin-left: 5%;
 }
 
 form {
-    margin-left: 10%;
-    display: flex;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  background-color: #222831;
+  border: 1px solid #393e46;
+  border-radius: 4px;
+  width: 350px;
+  height: 20px;
+  color: #eeeeee;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #393e46;
 }
 
 .submit {
@@ -47,14 +81,15 @@ form {
 }
 
 button {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #222831;
   color: #00adb5;
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1.1em;
   border: 2px solid #00adb5;
   border-radius: 5px;
-  padding: 10px;
-  margin-left: 10%;
+  padding: 10px 20px 10px 20px;
+  margin-left: 5%;
+  margin-top: 10px;
   cursor: pointer;
 }
 
@@ -68,5 +103,15 @@ button:active {
 }
 
 h3 {
-  margin-left: 10%;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+
+a {
+  color: #00adb5;
+}
+
+h1 {
+    font-family: Norse-Bold;
+    margin: 20px;
 }
