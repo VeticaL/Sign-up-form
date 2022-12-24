@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-@font-face {
-  font-family: Norse-Bold;
-  src: url(./fonts/Norse-Bold.otf);
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -112,6 +107,6 @@ a {
 }
 
 h1 {
-    font-family: Norse-Bold;
+    font-family: "Roboto";
     margin: 20px;
 }
